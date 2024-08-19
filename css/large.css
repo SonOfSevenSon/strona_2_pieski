@@ -1,0 +1,15 @@
+/* // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... } */
+
+/* HEADER  */
+
+.header-img {
+    background-image: url("../img/head_large.jpg");
+    background-size: cover;
+}
+
+/* MAIN  */
+
+.main-dog {
+    width: 50%;
+}

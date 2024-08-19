@@ -1,0 +1,51 @@
+/* // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... } */
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-desktop li a {
+    padding: 30px;
+    /* background-color: rgb(189, 15, 15); */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.5s;
+}
+
+.nav-desktop li a:hover {
+    color: #000;
+}
+
+/* HEADER  */
+
+.header-img {
+    background-image: url("../img/head_medium.jpg");
+    background-size: cover;
+}
+
+.header-text h1 {
+    font-size: 46px;
+}
+
+.header-text p 
+{
+    font-size: 22px;
+}
+
+/* MAIN  */
+
+section {
+    margin: 120px 0;
+}
